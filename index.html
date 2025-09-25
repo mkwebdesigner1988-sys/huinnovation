@@ -4,9 +4,9 @@
       <meta charset="utf-8"/>
       <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-      <title>HU 이노베이션</title>
+      <title>HU이노베이션 »윈텍스</title>
       <meta name="robots" content="index,follow"/>
-      <meta name="description" content="HU 이노베이션은 개인 투자자에게 어려웠던 신재생에너지 분야를 누구나 투자할 수 있도록 만들어 안정적인 수익을 얻을 수 있도록 돕고 있습니다."/>
+      <meta name="description" content="HU이노베이션 »윈텍스은 개인 투자자에게 어려웠던 신재생에너지 분야를 누구나 투자할 수 있도록 만들어 안정적인 수익을 얻을 수 있도록 돕고 있습니다."/>
       <link rel="icon" type="image/png" href="img/favicon.png">
       <!-- CSS -->
       <link href="assets/css/common.css" rel="stylesheet"/>
@@ -15,6 +15,86 @@
       <link href="assets/css/swiper-bundle.min.css" rel="stylesheet"/>
       <link href="assets/css/slick.min.css" rel="stylesheet"/>
       <link href="assets/css/slick-theme.min.css" rel="stylesheet"/>
+      <style>
+    /* 팝업 기본 스타일 */
+    #mngPop_all {
+      position: fixed;
+      z-index: 9999;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      border-radius: 20px;
+          width: 100%;
+        max-width: 500px;
+      background: #fff;
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+      overflow: hidden;
+    }
+    .pop_body {
+      border-radius: 20px 20px 0 0;
+      overflow: hidden;
+    }
+    .pop_body img {
+      width: 100%;
+      cursor: pointer;
+      display: block;
+    }
+    /* 버튼 영역 */
+    .ly_ft {
+      height: 60px;
+      border-radius: 0 0 20px 20px;
+      display: flex;
+      border-top: 1px solid #ddd;
+    }
+    .ly_ft button {
+      flex: 1;
+      border: none;
+      background: none;
+      font-weight: 800;
+      font-size: 15px;
+      color: #555;
+      cursor: pointer;
+    }
+    .ly_ft button + button {
+      border-left: 1px solid #d7d4d4;
+    }
+    /* Swiper navigation 화살표 */
+    .swiper-button-prev,
+    .swiper-button-next {
+      width: 36px;
+      height: 36px;
+      background: rgb(255 255 255 / 38%);
+      border-radius: 50%;
+      color: #333;
+      top: 50%;
+      box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    }
+    .swiper-button-prev:hover,
+    .swiper-button-next:hover {
+      background: rgba(255,255,255,0.9);
+    }
+    .swiper-button-prev::after,
+    .swiper-button-next::after {
+      font-size: 20px;
+      font-weight: bold;
+    }
+    /* Swiper 페이지네이션 동그라미 기본 스타일 */
+.swiper-pagination-bullet {
+  background: rgba(255, 255, 255, 0.4); /* 연한 흰색 */
+  opacity: 1;
+  width: 10px;
+  height: 10px;
+  margin: 0 4px;
+  border-radius: 50%;
+  transition: background 0.3s;
+}
+
+/* 현재 선택된 슬라이드 (진한 흰색) */
+.swiper-pagination-bullet-active {
+  background: rgba(255, 255, 255, 1); /* 진한 흰색 */
+}
+
+  </style>
    </head>
    <body>
       <div id="wrap">
@@ -24,7 +104,7 @@
                <div class="navcont_info">
                   <div class="nab_box">
                      <div class="nab_top">
-                        <a class="navbar-brand logo" href="index.html"><img src="white_logo.webp"/></a>
+                        <a class="navbar-brand logo" href="index.html"><img src="black_logo.webp"/></a>
                      </div>
                      <div class="navbar_subcont">
                         <div class="head_submenu">
@@ -110,7 +190,7 @@
                         <div class="nav_info">
                            <div class="navbar-collapse collapse" data-animations="fadeIn fadeIn fadeInUp fadeInRight" data-hover="dropdown" id="navbarResponsive" style="display: none;">
                               <div class="mb_logo">
-                                 <a class="mb_logo_logo" href="index.html"><img src="white_logo.webp"/></a>
+                                 <a class="mb_logo_logo" href="index.html"><img src="black_logo.webp"/></a>
                               </div>
                               <div class="mba_ssloga">
                                  <a class="mba_ssloga_logi" href="login.html">로그인</a>
@@ -220,7 +300,7 @@
                               </div>
                            </div>
                            <div style="text-align: center;margin-top: 10px;">
-                              HU 이노베이션을 이용하고 있습니다
+                              HU이노베이션 »윈텍스을 이용하고 있습니다
                            </div>
                         </div>
                      </li>
@@ -304,7 +384,7 @@
                      text-align: center;
                      padding-bottom: 60px;
                      ">
-                     HU 이노베이션 발전기
+                     HU이노베이션 »윈텍스 발전기
                   </div>
                   <div style="
                      font-size: 20px;
@@ -312,7 +392,7 @@
                      text-align: center;
                      padding-bottom: 50px;
                      ">
-                     HU 이노베이션 자체 발전기에서 전력을 생산합니다.<br/>
+                     HU이노베이션 »윈텍스 자체 발전기에서 전력을 생산합니다.<br/>
                      생산 된 전기는 공공기관/기업등에 판매 됩니다.<br/>
                      개인이 어려웠던 재생에너지 투자!<br/>
                      지금 바로 참여해 보세요.
@@ -347,7 +427,7 @@
                   <div class="item_box img_option" style="background-image: url(img/background992.png);">
                      <ul class="con_siz flt_clr">
                         <li class="">
-                           <a href="/info" class="item">
+                           <a href="info.html" class="item">
                               <div class="more">
                                  <p>서비스 소개</p>
                                  <span class="fnt_roto">More<i><img src="img/comm/icon_more_arrow_white.png" alt="arrow"></i></span>
@@ -357,7 +437,7 @@
                                     <i class="icon_t"><img src="img/comm/icon_design.png" alt="arrow"></i>
                                     <dl>
                                        <dt class="fnt_roto">서비스 소개</dt>
-                                       <dd>HU 이노베이션은 신재생에너지 풍력 개발 사업을 수행하며, 육상풍력/해상풍력 풍력단지설계 역량을 축척 하였습니다.</dd>
+                                       <dd>HU이노베이션 »윈텍스은 신재생에너지 풍력 개발 사업을 수행하며, 육상풍력/해상풍력 풍력단지설계 역량을 축척 하였습니다.</dd>
                                     </dl>
                                     <div class="more_box">
                                        <span class="more">바로가기<i><img src="img/comm/icon_more_arrow_white.png" alt="arrow"></i></span>
@@ -367,7 +447,7 @@
                            </a>
                         </li>
                         <li class="">
-                           <a href="/investmentlist" class="item">
+                           <a href="investmentlist.html" class="item">
                               <div class="more">
                                  <p>투자상품</p>
                                  <span class="fnt_roto">More<i><img src="img/comm/icon_more_arrow_white.png" alt="arrow"></i></span>
@@ -377,7 +457,7 @@
                                     <i class="icon_t"><img src="img/comm/icon_ETC.png" alt="arrow"></i>
                                     <dl>
                                        <dt class="fnt_roto">투자상품</dt>
-                                       <dd>HU 이노베이션은 전력생산 및 판매 솔루션을 구현시켜 최상의 서비스를 제공해드리고 있습니다.</dd>
+                                       <dd>HU이노베이션 »윈텍스은 전력생산 및 판매 솔루션을 구현시켜 최상의 서비스를 제공해드리고 있습니다.</dd>
                                     </dl>
                                     <div class="more_box">
                                        <span class="more">More<i><img src="img/comm/icon_more_arrow_white.png" alt="arrow"></i></span>
@@ -387,7 +467,7 @@
                            </a>
                         </li>
                         <li class="">
-                           <a href="/faq" class="item">
+                           <a href="faq.html" class="item">
                               <div class="more">
                                  <p>자주하는 질문</p>
                                  <span class="fnt_roto">More<i><img src="img/comm/icon_more_arrow_white.png" alt="arrow"></i></span>
@@ -397,7 +477,7 @@
                                     <i class="icon_t"><img src="img/comm/icon_OM.png" alt="arrow"></i>
                                     <dl>
                                        <dt class="fnt_roto">자주하는 질문</dt>
-                                       <dd>HU 이노베이션 서비스 이용이 어려우실 수 있습니다. Q&amp;A만 숙지하시면 더 쉽게 홈페이지를 이용하실 수 있습니다.</dd>
+                                       <dd>HU이노베이션 »윈텍스 서비스 이용이 어려우실 수 있습니다. Q&amp;A만 숙지하시면 더 쉽게 홈페이지를 이용하실 수 있습니다.</dd>
                                     </dl>
                                     <div class="more_box">
                                        <span class="more">More<i><img src="img/comm/icon_more_arrow_white.png" alt="arrow"></i></span>
@@ -424,14 +504,14 @@
                         <!-- 국내사업 -->
                         <div class="overseas tab_content current" id="domestic">
                            <div class="inner inner01" style="background: url(img/overseas_busi_bg332.webp) left top 30px no-repeat;">
-                              <p class="text_info">무한한 에너지 바람, 아름다운 세상을 HU 이노베이션이 만들어 갑니다.</p>
+                              <p class="text_info">무한한 에너지 바람, 아름다운 세상을 HU이노베이션 »윈텍스이 만들어 갑니다.</p>
                            </div>
                         </div>
                         <!-- //국내사업 -->
                         <!-- 해외사업 -->
                         <div class="overseas tab_content" id="overseas">
                            <div class="inner inner02" style="background: url(img/overseas_busi_bg22244.webp) left top 30px no-repeat;">
-                              <p class="text_info">무한한 에너지 바람, 아름다운 세상을 HU 이노베이션이 만들어 갑니다.</p>
+                              <p class="text_info">무한한 에너지 바람, 아름다운 세상을 HU이노베이션 »윈텍스이 만들어 갑니다.</p>
                            </div>
                         </div>
                      </div>
@@ -444,7 +524,7 @@
             <!-- //btm_cts -->
             <div class="content04 comm_con con_siz">
                <div class="tit_box al_c">
-                  <p class="tit">HU 이노베이션 홍보영상</p>
+                  <p class="tit">HU이노베이션 »윈텍스 홍보영상</p>
                </div>
             </div>
             <div class="panel-grid panel-has-style" id="pg-2-0">
@@ -456,9 +536,9 @@
                               <div class="siteorigin-widget-tinymce textwidget">
                                  <p class="medium-font" style="
                                     line-height: 1.2;
-                                    ">HU 이노베이션은 개인 투자가 어려웠던 <strong>신재생에너지 풍력에너지</strong> 분야를 누구나 투자하실 수 있도록 만들어 안정적인 수익을 얻을 수 있도록 도움드리고 있습니다<br/><br/>
+                                    ">HU이노베이션 »윈텍스은 개인 투자가 어려웠던 <strong>신재생에너지 풍력에너지</strong> 분야를 누구나 투자하실 수 있도록 만들어 안정적인 수익을 얻을 수 있도록 도움드리고 있습니다<br/><br/>
                                     무한한 청정에너지 바람을 이용해 전력을 생산합니다. <br/> 생산된 전력을 판매하여 수익을 배당해 드립니다.
-                                 <p class="medium-font">풍력에너지, HU 이노베이션에서 최상의 서비스를 제공해 드리겠습니다.</p>
+                                 <p class="medium-font">풍력에너지, HU이노베이션 »윈텍스에서 최상의 서비스를 제공해 드리겠습니다.</p>
                                  <a class="underline-button" href="investmentlist.html">투자상품 바로가기</a>
                                  </p>
                               </div>
@@ -491,7 +571,7 @@
             height: 320px;
             ">
             <h1 class="" style="padding-top: 50px;">
-               <img alt="logo" src="black_logo.webp" style="width: 150px;"/>
+               <img alt="logo" src="white_logo.png" style="width: 150px;"/>
             </h1>
             <div class="info_box" style="
                position: static;
@@ -562,6 +642,38 @@
          </div>
       </footer>
       <!-- E : footer -->
+
+      <div id="mngPop_all" class="layer_pop2 popup_pc">
+         <div class="popWrap">
+            <div class="pop_body">
+            <!-- Swiper -->
+            <div class="swiper MainSwiper swiper-initialized swiper-horizontal swiper-backface-hidden">
+               <div class="swiper-wrapper" id="swiper-wrapper-32adc5617bbb57c10" aria-live="off" style="transition-duration: 0ms; transform: translate3d(-2000px, 0px, 0px);">
+                           <div class="swiper-slide swiper-slide-next" role="group" aria-label="2 / 5" data-swiper-slide-index="1" style="width: 500px;">
+                                       <img src="img/xoO7UKLEDDXD6z.webp" onclick="window.location.href='event-detail.html/?index=13';" alt="popup image">
+                                    </div><div class="swiper-slide" role="group" aria-label="3 / 5" data-swiper-slide-index="2" style="width: 500px;">
+                                       <img src="img/bHFH2XCWDyF91a.webp" onclick="window.location.href='event-detail.html/?index=14';" alt="popup image">
+                                    </div><div class="swiper-slide" role="group" aria-label="4 / 5" data-swiper-slide-index="3" style="width: 500px;">
+                                       <img src="img/yZaZ3sTZfbA9nX.webp" onclick="window.location.href='event-detail.html/?index=15';" alt="popup image">
+                                    </div><div class="swiper-slide swiper-slide-prev" role="group" aria-label="5 / 5" data-swiper-slide-index="4" style="width: 500px;">
+                                       <img src="img/tJXdELlfLrUXhm.webp" onclick="window.location.href='event-detail.html/?index=16';" alt="popup image">
+                                    </div><div class="swiper-slide swiper-slide-active" role="group" aria-label="1 / 5" data-swiper-slide-index="0" style="width: 500px;">
+                                       <img src="img/ScyYe5rtq1ulCe.webp" onclick="window.location.href='event-detail.html/?index=12';" alt="popup image">
+                                    </div></div>
+               <!-- Add Arrows -->
+               <div class="swiper-button-prev prev-btn-xy12" tabindex="0" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-32adc5617bbb57c10"></div>
+               <div class="swiper-button-next next-btn-xy12" tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-32adc5617bbb57c10"></div>
+               
+               <div class="swiper-pagination"></div>
+            <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+            </div>
+            <div class="ly_ft">
+            <button onclick="disablePopupAll();">오늘 하루 보지 않기</button>
+            <button onclick="closePopupAll();">닫기</button>
+            </div>
+         </div>
+      </div>
+
       <!-- JS start here -->
       <script src="assets/js/jquery-3.6.0.min.js"></script>
       <script src="assets/js/libs_comm.min220a.js?20250331"></script>
@@ -572,5 +684,65 @@
       <script src="assets/js/slick.min.js"></script>
       <script src="assets/js/custom-script.js"></script>
       <script src="assets/js/beacon.min.js" defer></script>
+
+      <script>
+  // 첫 번째 Swiper
+  const swiperMain = new Swiper(".MainSwiper", {
+    slidesPerView: 1,
+    loop: true,
+    autoplay: {
+      delay: 5000,
+      disableOnInteraction: false,
+    },
+    navigation: {
+      nextEl: ".next-btn-xy12",
+      prevEl: ".prev-btn-xy12",
+    },
+    on: {
+      slideChange: function () {
+        const slideNameSpan = document.querySelector(".slide-name-xy12");
+        slideNameSpan.textContent = slideNames[this.realIndex] || "";
+      },
+    },
+  });
+</script>
+
+<script>
+// 쿠키 값 가져오는 함수
+function getCookieValue(cookieName) {
+    var name = cookieName + "=";
+    var decodedCookie = decodeURIComponent(document.cookie);
+    var cookieArray = decodedCookie.split(';');
+    for (var i = 0; i < cookieArray.length; i++) {
+        var cookie = cookieArray[i].trim();
+        if (cookie.indexOf(name) === 0) {
+            return cookie.substring(name.length);
+        }
+    }
+    return "";
+}
+
+document.addEventListener("DOMContentLoaded", function () {
+    // 팝업 닫기 (단순 닫기)
+    window.closePopupAll = function () {
+        var popup = document.getElementById("mngPop_all");
+        if (popup) {
+            popup.style.display = "none";
+        }
+    };
+
+    // 오늘 하루 보지 않기 (쿠키 설정 + 닫기)
+    window.disablePopupAll = function () {
+        var popup = document.getElementById("mngPop_all");
+        if (popup) {
+            popup.style.display = "none";
+        }
+        var date = new Date();
+        // 자정까지 유효한 쿠키 설정
+        date.setHours(23, 59, 59, 0);
+        document.cookie = "mngPop_all=disabled; expires=" + date.toUTCString() + "; path=/";
+    };
+});
+</script>
    </body>
 </html>

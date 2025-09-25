@@ -100,11 +100,11 @@ $(document).ready(function () {
   $('.navigation .depth')
     .on('mouseenter', function () {
       $(this).addClass('on');
-      $(this).find('i img').attr('src', '../../img/comm/icon_navigation_arrow_white.png');
+      // $(this).find('i img').attr('src', '../../img/comm/icon_navigation_arrow_white.png');
     })
     .on('mouseleave', function () {
       $(this).removeClass('on');
-      $(this).find('i img').attr('src', '../../img/comm/icon_navigation_arrow.png');
+      // $(this).find('i img').attr('src', '../../img/comm/icon_navigation_arrow.png');
     });
 
   //main - link button hover event
@@ -251,11 +251,11 @@ $(document).ready(function () {
       $(this).addClass('service_on');
       $(this)
         .parents('.item_box')
-        .css('background-image', 'url(../../img/background992.png');
+        // .css('background-image', 'url(../../img/background992.png');
     })
     .on('mouseleave', function () {
       $(this).removeClass('service_on');
-      $(this).parents('.item_box').css('background-image', 'url(../../img/background992.png');
+      // $(this).parents('.item_box').css('background-image', 'url(../../img/background992.png');
     });
 
   //main - inquiry(문의하기) plotting

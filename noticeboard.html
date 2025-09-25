@@ -15,6 +15,50 @@
       <link href="assets/css/swiper-bundle.min.css" rel="stylesheet"/>
       <link href="assets/css/slick.min.css" rel="stylesheet"/>
       <link href="assets/css/slick-theme.min.css" rel="stylesheet"/>
+      <link href="assets/css/review.css" rel="stylesheet"/>
+      <style>
+         #bo_v_title {
+         font-size: 0;
+         padding: 25px 10px 22px;
+         border-top: 1px solid #333;
+         border-bottom: 1px solid #d9d9d9;
+         }    
+         .bo_v_tit_wr {
+         display: inline-block;
+         vertical-align: top;
+         width: calc(100% - 130px);
+         }
+         #bo_v_title .bo_v_tit {
+         font-size: 26px;
+         font-weight: 500;
+         color: #0f0f0f;
+         display: inline-block;
+         vertical-align: middle;
+         margin: 0;
+         }
+         #bo_v_title .bo_v_date {
+         padding-top: 6px;
+         font-size: 16px;
+         font-weight: 300;
+         color: #999;
+         margin-top: 5px;
+         display: block;
+         }
+         #bo_v_con {
+         margin: 0;
+         padding: 30px 20px 50px;
+         }
+         #bo_v_con {
+         width: 100%;
+         line-height: 1.7em;
+         min-height: 200px;
+         word-break: break-all;
+         overflow: hidden;
+         }
+         #bo_v_con {
+         font-size: 18px;
+         }
+      </style>
    </head>
    <body>
       <div id="wrap">
@@ -188,140 +232,67 @@
          </nav>
          <!-- E: header -->
          <!-- S : key_visual -->
-         <div id="sub_key_visual">
-            <div class="key_visual img_option product2" style="    background-image: url(img/1product_key_visual.webp);">
-               <div class="txt_box">
-                  <h2>풍력 발전기</h2>
+         <div id="sub-visual" class="bg-cover" style="background-image: url(img/1product_key_visual.webp);">
+            <div class="c">
+               <div class="content white">
+                  <div class="title animated fadeInUp">공지사항</div>
                </div>
-            </div>
-            <div class="navigation">
-               <ul class="flt_clr">
-                  <li class="home">
-                     <a href="index.html">
-                     <i><img src="img/comm/icon_home.png" alt="home"></i>
-                     </a>
-                  </li>
-                  <li class="depth depth1">
-                     <span>발전기 상품</span>
-                  </li>
-                  <li class="depth">
-                     <span>H125</span>
-                     <i><img src="img/comm/icon_navigation_arrow.png" alt="arrow"></i>
-                     <ul class="sub_nav">
-                        <li><a href="h103.html">- H103</a></li>
-                        <li><a href="h177P.html">- H177P</a></li>
-                        <li><a href="h204.html">- H204</a></li>
-                     </ul>
-                  </li>
-               </ul>
             </div>
          </div>
          <!-- E : key_visual -->
-         <nav class="sub-cg">
-            <a class="off" href="investmentlist.html">풍력투자</a>
-            <a class="on" href="h103.html">상품설명</a>
-            <a class="off" href="situation.html">투자현황</a>
-         </nav>
-         <!-- S : sub_title-->
-         <div class="tit_sub_comm">
-            <p class="tit">H125<span> </span></p>
-            <p class="tit_sub" style=" max-width: 850px; margin: 0 auto;">H125는 최대 출력이 2.3메가와트(MW)인 풍력 발전기로, 전체 출력을 제어하는 
-               전력 변환 장치(풀 컨버터)를 갖추고 있어 기의 품질이 매우 적합 합니다.
-               또한 바람이 약한 국내 지역의 풍속 조건에 잘 맞게 설계된 모델 입니다.
-            </p>
-         </div>
-         <!-- E : sub_title-->
-         <!-- S : container -->
-         <div id="container" class="sub_page">
-            <div class="platform__item">
-               <div class="container-abcd">
-                  <div class="image-box-abcd">
-                     <img src="img/f-99-img-2.png" alt="이미지">
-                  </div>
-                  <div class="text-box-abcd">
-                     <div class="title-abcd">발전기 성능</div>
-                     <div class="item-abcd"><b>정격출력</b><span>2,500KW</span></div>
-                     <div class="item-abcd"><b>설계등급</b><span>IEC S(IIIA+)</span></div>
-                     <div class="item-abcd"><b>로터직경</b><span>125m</span></div>
-                     <div class="item-abcd"><b>허브높이</b><span>110m</span></div>
-                     <div class="item-abcd"><b>운전풍속</b><span>2~25m/s</span></div>
-                     <div class="item-abcd"><b>정격풍속</b><span>9.7m/s</span></div>
-                     <div class="item-abcd"><b>한계풍속</b><span>60.5m/s</span></div>
-                     <div class="item-abcd"><b>설계수명</b><span>25년</span></div>
-                  </div>
-               </div>
-               <div class="introduction" style="
-                  background: #f6f6f6;
-                  padding: 34px;
-                  ">
-                  <p class="tit_t fnt_roto" style="
-                     padding-bottom: 20px;
-                     text-align: left;
-                     color: #000;
-                     font-size: 34px;
-                     ">특징</p>
-                  <div class="item-abcd" style="
-                     text-align: left;
-                     margin: 16px 0;
-                     font-size: 20px;
-                     "><span style="
-                     color: #292929;
-                     ">영구자석을 이용한 발전기와 전력 변환 장치를 사용하여 전기를 더 안정적이고 깨끗하게 생산함.</span></div>
-                  <div class="item-abcd" style="
-                     text-align: left;
-                     margin: 16px 0;
-                     font-size: 20px;
-                     "><span style="
-                     color: #292929;
-                     ">외부 공기가 들어오지 않도록 완전히 밀폐된 구조이며, 물을 이용해 내부 열을 식혀서 장비가 더 오래 고장 없이 작동함.</span></div>
-                  <div class="item-abcd" style="
-                     text-align: left;
-                     margin: 16px 0;
-                     font-size: 20px;
-                     "><span style="
-                     color: #292929;
-                     ">갑작스러운 전압 강하가 발생해도 터빈이 멈추지 않고 전력망에 계속 연결되어 전체 전력 시스템의 안정성을 높여줌.</span></div>
-                  <div class="item-abcd" style="
-                     text-align: left;
-                     margin: 16px 0;
-                     font-size: 20px;
-                     "><span style="
-                     color: #292929;
-                     ">터빈 상단의 내부 공간이 넉넉하고 정비하기 쉽게 설계되어, 큰 장비 없이도 고장 부품을 쉽게 교체할 수 있음.</span></div>
-               </div>
-               <div class="different_product con_siz">
-                  <p class="tit_comm">다른 제품</p>
-                  <ul>
-                     <li>
-                        <a href="h125.html" class="img_U136 img_option" style="background-image: url(img/1F115.webp);">
-                        <span class="fnt_roto">H125</span>
-                        </a>
-                     </li>
-                     <li>
-                        <a href="h177P.html" class="img_U120 img_option" style="background-image: url(img/1F137.webp);">
-                        <span class="fnt_roto">H177P</span>
-                        </a>
-                     </li>
-                     <li>
-                        <a href="h204.html" class="img_U113 img_option" style="background-image: url(img/1F143E.webp);">
-                        <span class="fnt_roto">H204</span>
-                        </a>
-                     </li>
-                     <li>
-                        <a href="javascript:void(0);" onclick="alert('투자마감된 상품입니다.');" style="background-image: url(img/1F109.webp);" class="img_U93 img_option">
-                        <span class="fnt_roto">H208</span>
-                        </a>
-                     </li>
-                     <li>
-                        <a href="javascript:void(0);" onclick="alert('투자마감된 상품입니다.');" style="background-image: url(img/1F127E.webp);" class="img_U88E img_option">
-                        <span class="fnt_roto">H211K</span>
-                        </a>
-                     </li>
-                  </ul>
-               </div>
-            </div>
-         </div>
-         <!-- E : container -->
+         <main id="middler" class="sub sub07 sub07_2" style="
+            max-width: 1200px;
+            width: 100%;
+            margin: 0 auto;
+            margin-top: 40px;
+            ">
+            <article class="layout">
+               <section class="noticezone fade-section visible">
+                  <h3 class="subtitle">
+                     <div class="title" style="
+                        margin-bottom: 40px;
+                        ">공지사항</div>
+                  </h3>
+                  <h2 id="bo_v_title">
+                     <div class="bo_v_tit_wr">
+                        <span class="bo_v_tit">
+                        2025 상반기 세미나 개최</span>
+                        <span class="bo_v_date">2025-05-28</span>
+                     </div>
+                  </h2>
+                  <section id="bo_v_atc">
+                     <div id="bo_v_share">
+                     </div>
+                     <div id="bo_v_img"></div>
+                     <!-- 본문 내용 시작 { -->
+                     <div id="bo_v_con">
+                        <p><img src="img/qCK5RRNRjVCxAF.webp" alt="alt text" contenteditable="false"><br></p>
+                        <p><br></p>
+                        <p><br></p>
+                        <p><br></p>
+                        <p>안녕하세요 HU이노베이션 »윈텍스 입니다.</p>
+                        <p>2025년 상반기 세미나가 성공적으로 개최 되었습니다.</p>
+                        <p><br></p>
+                        <p>목적</p>
+                        <p>육상/해상 풍력산업 심포지엄</p>
+                        <p><br></p>
+                        <p>일시 : 2025년 5월 28일</p>
+                        <p><br></p>
+                        <p>주최 : HU이노베이션 »윈텍스 대표이사</p>
+                        <p><br></p>
+                        <p>많은분들이 참석하셔서 뜻깊은 시간이 되었습니다.</p>
+                        <p><br></p>
+                        <p>저희 HU이노베이션 »윈텍스은 투명하고 지속 가능한 기업 경영을 위하여 최선을 다하고 있습니다.</p>
+                        <p><br></p>
+                        <p>감사합니다</p>
+                     </div>
+                     <!-- } 본문 내용 끝 -->
+                     <!--  추천 비추천 시작 { -->
+                     <!-- }  추천 비추천 끝 -->
+                  </section>
+               </section>
+            </article>
+         </main>
       </div>
       <!-- S : footer -->
       <footer id="footer">
