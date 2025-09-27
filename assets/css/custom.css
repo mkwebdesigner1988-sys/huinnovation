@@ -368,7 +368,7 @@ body.dark .fixed-top .logo .logo_white{display:block;}
 .ma_environment .datalist .inbox .con { position: relative; margin-left: auto; text-align: right; } 
 .ma_environment .datalist .inbox .con .txt { font-size: 35px; line-height: 49px; font-weight: 700; } 
 .ma_environment .datalist .inbox .con .cnt { position: absolute; right: 0; top: 100%; margin-top: -2px; color: #ff5042; font-size: 12px; line-height: 16px; } 
-.ma_environment .databox { flex: 1; position: relative; margin-left: 20px; border-radius: 20px; background: url(img/eco/ma_bg_environment01.html) no-repeat center bottom #e9faf4; background-size: cover; } 
+.ma_environment .databox { flex: 1; position: relative; margin-left: 20px; border-radius: 20px; background: url(../../img/eco/ma_bg_environment01.html) no-repeat center bottom #e9faf4; background-size: cover; } 
 .ma_environment .databox .leftbox { display: flex; flex-direction: column; align-items: flex-start; position: absolute; top: 43px; left: 40px; } 
 .ma_environment .databox .leftbox .tit { font-size: 24px; line-height: 31px; font-weight: 700; } 
 .ma_environment .databox .leftbox .con .txt { font-size: 35px; line-height: 49px; font-weight: 700; } 
@@ -1699,7 +1699,7 @@ body.dark .img_dark{display:none;}
         transform: translateY(-50%);
         width: 8px;
         height: 13px;
-        background: url(img/icon_btn_arrow_black4.png) center no-repeat !important;
+        background: url(../../img/icon_btn_arrow_black4.png) center no-repeat !important;
     }
 
 @media (max-width: 1024px) {
@@ -1898,7 +1898,7 @@ em {
 
 .business_slide .more:after {
     content: '';
-    background: url(img/ico_sprite.png) -44px -10px no-repeat;
+    background: url(../../img/ico_sprite.png) -44px -10px no-repeat;
     width: 8px;
     height: 14px;
     display: block;
@@ -1968,7 +1968,7 @@ em {
 .domestic_info {
     max-width: 935px;
     height: 730px;
-    background: url(img/domestic_busi_bg.png)center top no-repeat;
+    background: url(../../img/domestic_busi_bg.png)center top no-repeat;
     padding: 0 28px;
     overflow: hidden;
     position: relative;
@@ -2021,7 +2021,7 @@ em {
 .domestic_info .text:before {
     content: '';
     display: inline-block;
-    background: url(img/domestic_ico02.png) left center no-repeat;
+    background: url(../../img/domestic_ico02.png) left center no-repeat;
     width: 15px;
     height: 17px;
     margin-right: 8px;
@@ -2078,7 +2078,7 @@ em {
 .overseas .inner {
     max-width: 1135px;
     height: 660px;
-    background: url(img/overseas_busi_bg.png) left top 30px no-repeat;
+    background: url(../../img/overseas_busi_bg.png) left top 30px no-repeat;
 }
 
 .overseas_info {
@@ -2108,7 +2108,7 @@ em {
     content: '';
     width: 16px;
     height: 22px;
-    background-image: url(img/overseas_ico.png);
+    background-image: url(../../img/overseas_ico.png);
     background-repeat: no-repeat;
     display: block;
 }
@@ -2183,7 +2183,7 @@ em {
     min-width: 40px;
     height: 40px;
     display: block;
-    background-image: url(img/info_center_ico.png);
+    background-image: url(../../img/info_center_ico.png);
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 6px;
@@ -2600,7 +2600,7 @@ em {
     .domestic_info li{width: calc((100% - 20px) / 2);}
     .business_slide .text_info br{display: block;}
     
-    .overseas .inner{height: 755px;background: url(img/overseas_busi_bg3.png) center no-repeat;background-size: contain;}
+    .overseas .inner{height: 755px;background: url(../../img/overseas_busi_bg3.png) center no-repeat;background-size: contain;}
     .overseas_tit{top: 155px;}
 }
 
@@ -2673,12 +2673,12 @@ em {
 }
 @media (max-width: 700px) {
     .overseas .inner01 {
-        background: url(img/overseas_busi_bg44.png) left top 230px no-repeat !important;
+        background: url(../../img/overseas_busi_bg44.png) left top 230px no-repeat !important;
         background-size: 100% auto !important;
         background-repeat: no-repeat !important;
     }
     .overseas .inner02 {
-    background: url(img/overseas_busi_bg22244.webp) left -20px top 230px no-repeat !important;
+    background: url(../../img/overseas_busi_bg22244.webp) left -20px top 230px no-repeat !important;
     background-size: 100% auto !important;
     background-repeat: no-repeat !important;
     }
@@ -3731,7 +3731,7 @@ table.tableB  td {padding:10px 10px;vertical-align:middle;color:#666;font-weight
 }
 
 .index .frame-1-2 {
-  background-image: url(../img/---------opes-1-1-3@2x.png);
+  background-image: url(../../img/---------opes-1-1-3@2x.png);
   background-size: 100% 100%;
   height: 64px;
   position: relative;
@@ -3855,7 +3855,7 @@ table.tableB  td {padding:10px 10px;vertical-align:middle;color:#666;font-weight
 
 .index .overlap-group {
   align-items: flex-start;
-  background-image: url(../img/ck-trd022tg30126-1.png);
+  background-image: url(../../img/ck-trd022tg30126-1.png);
   background-position: 50% 50%;
   background-size: cover;
   display: flex;
@@ -4368,7 +4368,7 @@ display: flex
 }
 
 .index .view {
-  background-image: url(../img/---------opes-1-1-3@2x.png);
+  background-image: url(../../img/---------opes-1-1-3@2x.png);
   background-size: 100% 100%;
   height: 64px;
   position: relative;
@@ -4535,7 +4535,7 @@ display: flex
 
 .u4354u4466u4363u4457u4369u4454u4361u4467-u4361u4450u4361u4457u4361u4469u4520-2 .overlap-group-1 {
   align-items: center;
-  background-image: url(../img/ck-trd022tg30126-1-1.png);
+  background-image: url(../../img/ck-trd022tg30126-1-1.png);
   background-position: 50% 50%;
   background-size: cover;
   display: flex;
@@ -5290,4 +5290,21 @@ display: flex
     border-radius: 7px;
     line-height: 40px;
     font-weight: 800;
+}
+
+@media (max-width: 800px) {
+    #middler.mypage.login {
+        position: relative;
+        overflow: hidden;
+        padding: 0px 0px !important;
+    }
+     #middler.mypage.register.login {
+      padding: 120px 0px !important;
+     }
+}
+
+@media (max-width: 768px) {
+    #middler.mypage.login .layout, #middler.mypage.register .layout {
+        width: 100%;
+    }
 }
